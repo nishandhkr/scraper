@@ -13,5 +13,4 @@ scrapy crawl googlePlay -o filename.extension
 
 Last time I checked the framework supports JSON, CSV and XML output formats and adjusts automatically to the extension provided.
 
-This scraper a with most scrapers is specific to the Play Store. I use specific css ids and classes to get the information.
-Check the GooglePlay.py file in the spiders directory to view the source code, or use it as a template for some other website you want to scrape.
+This scraper as with most scrapers is specific to the Play Store. I use specific css ids and headers to get the information I need.Check the googlePlay.py file in the spiders directory to view the source code, or use it as a template for some other website you want to scrape.
